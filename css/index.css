@@ -72,17 +72,17 @@ p {
 }
 
 .navigation {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	margin-top: 15px
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		margin-top: 15px
 }
 
 .nav-section .navigation a {
-	text-decoration: none;
-	color: black;
-	padding: 8px;
-	font-size: 14px;
+		text-decoration: none;
+		color: black;
+		padding: 8px;
+		font-size: 14px;
 }
 
 .top-content {
@@ -132,44 +132,84 @@ p {
 }
 
 #box1 {
-	background: teal;
+		background: teal;
 }
 
 #box2 {
-	background: gold;
+		background: gold;
 }
 
 #box3 {
-	background: cadetblue;
+		background: cadetblue;
 }
 
 #box4 {
-	background: coral;
+		background: coral;
 }
 
 #box5 {
-	background: crimson;
+		background: crimson;
 }
 
 #box6 {
-	background: forestgreen;
+		background: forestgreen;
 }
 
 #box7 {
-	background: darkorchid;
+		background: darkorchid;
 }
 
 #box8 {
-	background: hotpink;
+		background: hotpink;
 }
 
 #box9 {
-	background: indigo;
+		background: indigo;
 }
 
 #box10 {
-	background: dodgerblue
+		background: dodgerblue
 }
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* This is where the CSS code specific to the about.html page begins */
+
+.top-content .text-container-about {
+    width: 98%;
+    padding: 20px 0px;
+  }
 
 .middle-content-about {
     margin-bottom: 15px;
@@ -237,37 +277,4 @@ p {
 .middle-content-about .middle-box .learn-button:hover {
   background-color: #555555;
   color: white;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }
